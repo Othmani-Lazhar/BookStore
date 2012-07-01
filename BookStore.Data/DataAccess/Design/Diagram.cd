@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BookStore.Data.DataAccess.DataStore.PulisherDataStore" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\PulisherDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.AutherDataStore" Collapsed="true">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\AutherDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.BookDataStore" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\BookDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.CategoryDataStore" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\CategoryDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.CoutomerDataStore" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\CoutomerDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.EmployeeDataStore" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\EmployeeDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.DataStore.OrderDataStore" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataStore\OrderDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookStore.Data.DataAccess.BaseDataStore&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\BaseDataStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BookStore.Data.DataAccess.Utils.IRespository&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\Utils\IRespository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

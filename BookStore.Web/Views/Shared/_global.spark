@@ -1,0 +1,13 @@
+﻿<use namespace="System"/>
+<use namespace="System.Linq"/>
+<use namespace="System.Web"/>
+<use namespace="System.Web.UI"/>
+<use namespace="System.Web.Mvc"/>
+<use namespace="System.Web.Mvc.Html"/>
+<use namespace="System.Collections.Generic"/>
+<use namespace="System.Collections"/>
+<use namespace="BookStore.Core.Extensions"/>
+<use namespace="BookStore.Core.Controllers"/>
+<use namespace="BookStore.Core.Configuration"/>
+<use namespace="BookStore.Entites.Domain"/>
+

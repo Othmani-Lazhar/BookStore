@@ -1,0 +1,40 @@
+﻿<content name="Title">
+</content>
+<content name="Head">
+  <script src="!{XmlConfigurator.GetSetting().HostAddres}/Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+  <script src="!{XmlConfigurator.GetSetting().HostAddres}/Scripts/jquery.validate.js" type="text/javascript"></script>
+
+</content>
+<content name="Content">
+  # using (Html.BeginForm("Register", "Secure", FormMethod.Post))
+  # {
+
+  <div class="contact_form">
+    <div class="form_subtitle">create new account</div>
+    
+      <div class="form_row">
+        <label class="contact">
+          <strong>Username:</strong>
+        </label>
+        <input type="text" name="username" class="contact_input required " />
+      </div>
+      <div class="form_row">
+        <label class="contact">
+          <strong>Password:</strong>
+        </label>
+        <input type="text" name="password" class="contact_input required " />
+      </div>
+      <div class="form_row">
+        <label class="contact">
+          <strong>Email:</strong>
+        </label>
+        <input type="text" name="email" class="contact_input required" />
+      </div>
+      
+      <div class="form_row">
+        <input type="submit" class="register" value="register" />
+      </div>
+    # }
+  </div>
+
+</content>

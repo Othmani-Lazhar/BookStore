@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BookStore.Entites.Domain.Employee,BookStore.Entites" table="Employees">
+    <id type="int" column="ID" name="ID">
+      <generator class="identity"></generator>
+    </id>
+
+    <property name="Name" column="EmployeesName" type="string" />
+    <property name="Email" column="Email" type="string" />
+    <property name="RevordDate" column="RevordDate" type="datetime" />
+    <property name="LoginLastDate" column="LoginLastDate" type="datetime" />
+    <property name="Password" column="Pwd" type="string" />
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BookStore.Entites.Domain.Book,BookStore.Entites" table="Books">
+    <id type="int" column="ID" name="ID">
+      <generator class="identity"></generator>
+    </id>
+
+    <property name="Name" column="BookName" type="string" />
+    <property name="Prices" column="Prices" type="float" />
+    <property name="Description" column="Description" type="string" />
+    <property name="PublisDate" column="PublisDate" type="datetime" />
+    <property name="InStok" column="InStok" type="bool" />
+    <property name="ISBN" column="ISBN" type="string" />
+    <property name="PicturePath" column="PicturePath" type="string" />
+
+    <many-to-one name="Auther" class="BookStore.Entites.Domain.Auther,BookStore.Entites" column="AutherID" />
+    <many-to-one name="Pulisher" class="BookStore.Entites.Domain.Pulisher,BookStore.Entites"  column="PulisherID" />
+
+    <bag name="Categories" table="BookToCategory">
+      <key column="BookID" />
+      <many-to-many class="BookStore.Entites.Domain.Category,BookStore.Entites" column="CategoryID" />
+    </bag>
+    
+  </class>
+</hibernate-mapping>

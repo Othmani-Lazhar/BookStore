@@ -1,0 +1,40 @@
+﻿<content name="Title">
+</content>
+<content name="Head">
+
+</content>
+<content name="Content">
+  <div class="title">
+    <span class="title_icon">
+      <img src="content/images/bullet1.gif" alt="" title="" />
+    </span>Featured books
+  </div>
+
+
+  <for each="Book b in (List<Book>)ViewData.Model" >
+      <div class="feat_prod_box">
+
+    <div class="prod_img">
+      <a href="details.html">
+        <img src="content/images/prod1.gif" alt="" title="" border="0" />
+      </a>
+    </div>
+
+      
+        <div class="prod_det_box">
+        <div class="box_top"></div>
+        <div class="box_center">
+          <div class="prod_title">!{b.Name}</div>
+          <p class="details">!{b.Description}</p>
+          !{Html.ActionLink("Detay","Detail", new { id = b.ID  })}
+          <div class="clear"></div>
+        </div>
+      </div>
+      
+    
+      <div class="box_bottom"></div>
+    </div>
+    <div class="clear"></div>
+
+  </for>
+</content>

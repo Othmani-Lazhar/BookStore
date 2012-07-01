@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title><use content="Title"></use></title>
+    <link href="!{XmlConfigurator.GetSetting().HostAddres}/Content/style.css" rel="stylesheet" type="text/css" />
+    <script src="!{XmlConfigurator.GetSetting().HostAddres}/Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="!{XmlConfigurator.GetSetting().HostAddres}/Scripts/jquery.validate.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $("#aspnetForm").validate();
+            });
+    </script>
+
+    <use content="Head" />
+</head>
+
+<body>
+<div id="wrap">
+
+       <div class="header">
+            <div class="logo"><a href="#"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/logo.gif" alt="" title="" border="0" /></a></div>            
+        <div id="menu">
+            <ul>                                                                       
+            <li class="selected"><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">books</a></li>
+            <li><a href="#">specials books</a></li>
+            <li><a href="#">my accout</a></li>
+            <li><a href=!{Url.Action("Register","Secure")} >register</a>
+            
+            </li>
+            <li><a href="#">prices</a></li>
+            <li><a href="#">contact</a></li>
+            </ul>
+        </div>     
+            
+            
+       </div> 
+       
+       
+       <div class="center_content">
+        <div class="left_content">
+            
+           <use content="Content" />
+          
+          
+            
+        <div class="clear"></div>
+        </div><!--end of left content-->
+        
+        <div class="right_content">
+            <div class="languages_box">
+            <span class="red">Languages:</span>
+            <a href="#" class="selected"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/gb.gif" alt="" title="" border="0" /></a>
+            <a href="#"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/fr.gif" alt="" title="" border="0" /></a>
+            <a href="#"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/de.gif" alt="" title="" border="0" /></a>
+            </div>
+                <div class="currency">
+                <span class="red">Currency: </span>
+                <a href="#">GBP</a>
+                <a href="#">EUR</a>
+                <a href="#" class="selected">USD</a>
+                </div>
+                
+                
+              <div class="cart">
+                  <div class="title"><span class="title_icon"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/cart.gif" alt="" title="" /></span>My cart</div>
+                  <div class="home_cart_content">
+                  3 x items | <span class="red">TOTAL: 100$</span>
+                  </div>
+                  <a href="cart.html" class="view_cart">view cart</a>
+              
+              </div>
+                       
+                
+        
+        
+             <div class="title"><span class="title_icon"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/bullet3.gif" alt="" title="" /></span>About Our Store</div> 
+             <div class="about">
+             
+             
+             </div>
+             
+             <div class="right_box">
+             
+                <div class="title"><span class="title_icon"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/bullet4.gif" alt="" title="" /></span>Promotions</div> 
+                           
+             
+             </div>
+             
+             <div class="right_box">
+             
+                <div class="title"><span class="title_icon"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/bullet5.gif" alt="" title="" /></span>Categories</div> 
+                
+                
+                
+                <div class="title"><span class="title_icon">
+                <img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/bullet6.gif" alt="" title="" />
+                </span>Yönetim</div> 
+
+                    <ul class="list"> 
+                    
+                        <li><a href=!{Url.Action("Add","Book")} >accesories</a></li> 
+                        
+                    </ul> 
+                  
+             
+             </div>         
+             
+        
+        </div><!--end of right content-->
+        
+        
+       
+       
+       <div class="clear"></div>
+       </div><!--end of center content-->
+       
+              
+       <div class="footer">
+        <div class="left_footer"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/footer_logo.gif" alt="" title="" /><br /> <a href="http://csscreme.com/freecsstemplates/" title="free templates"><img src="!{XmlConfigurator.GetSetting().HostAddres}/content/images/csscreme.gif" alt="free templates" title="free templates" border="0" /></a></div>
+        <div class="right_footer">
+        <a href="#">home</a>
+        <a href="#">about us</a>
+        <a href="#">services</a>
+        <a href="#">privacy policy</a>
+        <a href="#">contact us</a>
+       
+        </div>
+        
+       
+       </div>
+    
+
+</div>
+
+</body>
+</html>
